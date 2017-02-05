@@ -1,0 +1,30 @@
+
+Test with grf1218test.html and then revise the grf1218
+
+1.Revise photo options
+
+レイヤーをそろえる。
+肉なら肉の種類
+seafoodの写真と選択肢を検討する。
+
+鍋
+すきやき
+しゃぶしゃぶ
+おでん
+とんかつ
+
+
+2.Show the result bar
+
+a, （0.0-5.0）の点数を表示する。レビューのランキングを作る。
+ベスト3を下の項目に表示する。
+
+place.ratingの箇所　→　sort かけて上から３つ表示
+
+それぞれのplace検索結果(place.rating)を配列に入れて、それをsortかけて、上から3つ表示する。
+
+function callbackのresultsの配列からratingにより
+sortをかけて、上から3つのお店情報を表示する。
+☆undefinedを削除する。
+
+
