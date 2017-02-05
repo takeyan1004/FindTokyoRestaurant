@@ -412,8 +412,10 @@ var resultbody = document.getElementById("resultbody");
   resultbody.appendChild(tr);
 
 resultbody.onclick = function(){
+google.maps.event.trigger(results[i], 'click');
 
 console.log(name);
+console.log("please let me know if you know how to open the info. on each marker when we click each list item");
 
 };
 }
