@@ -394,6 +394,7 @@ var request = {
   };
 
 function callback(results, status) {
+console.log("please let me know if you know how to open the info. on each marker when we click each list item");
 
   if (status == google.maps.places.PlacesServiceStatus.OK) {
     for (var i = 0; i < results.length; i++) {
@@ -412,10 +413,7 @@ var resultbody = document.getElementById("resultbody");
   resultbody.appendChild(tr);
 
 resultbody.onclick = function(){
-google.maps.event.trigger(results[i], 'click');
-
 console.log(name);
-console.log("please let me know if you know how to open the info. on each marker when we click each list item");
 
 };
 }
