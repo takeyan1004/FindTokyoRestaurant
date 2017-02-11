@@ -412,7 +412,7 @@ var resultbody = document.getElementById("resultbody");
   tr.appendChild(nameTd);
   resultbody.appendChild(tr);
 
-tr.onclick = (function() {
+(function() {
    google.maps.event.trigger(markers[i], 'click');
   })();
 
