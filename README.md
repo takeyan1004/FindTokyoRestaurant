@@ -17,7 +17,7 @@ grf1218final.html
 
 ## Preview
 
-[![Website Preview](FTRSample.jpg)
+![Website Preview](FTRSample.jpg)
 
 **[View Live Preview](https://takeyan1004.github.io/FindTokyoRestaurant/grf1218final.html)**
 
